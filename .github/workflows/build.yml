@@ -6,7 +6,7 @@
 # SHIPPED BY DEFAULT WITH FABRIC EXAMPLES, NEEDS COMPLETE MODIFICATION FOR ACTUAL USE
 
 name: build
-on: [pull_request, push]
+on: workflow_dispatch
 
 jobs:
   build:
