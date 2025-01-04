@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "harry-potter-renewed",
+	"version": "${version}",
+	"name": "Harry Potter Renewed",
+	"description": "Dive into the magic world of Harry Potter!",
+	"authors": [
+		"Rovetown",
+		"Other People"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/harry-potter-renewed/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+				"com.rovetown.harrypotterrenewed.HarryPotterRenewed"
+		],
+		"client": [
+				"com.rovetown.harrypotterrenewed.HarryPotterRenewedClient"
+		],
+		"fabric-datagen": [
+				"com.rovetown.harrypotterrenewed.HarryPotterRenewedDataGenerator"
+		]
+	},
+	"mixins": [
+		"harry-potter-renewed.mixins.json",
+		{
+			"config": "harry-potter-renewed.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

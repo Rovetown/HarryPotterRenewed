@@ -1,0 +1,40 @@
+name: Generate Changelog
+
+on:
+  workflow_dispatch:
+  # Allows you to manually trigger the workflow from the GitHub Actions UI
+
+jobs:
+  changelog:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+
+      - name: Setup Ruby 3.2.2
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+
+      - name: Install GitHub Changelog Generator
+        run: |
+          gem install github_changelog_generator
+
+      - name: Generate Changelog
+        env:
+          CHANGELOG_GITHUB_TOKEN: ${{ secrets.CHANGELOG_TOKEN }}
+        run: |
+          github_changelog_generator Rovetown/HarryPotterRenewed --token $CHANGELOG_GITHUB_TOKEN
+
+      - name: Commit and Push Changelog
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git status
+          git add CHANGELOG.md
+          git commit -m "Updated CHANGELOG.md"
+          git status
+          git fetch origin
+          git rebase --strategy-option=theirs origin/main --verbose
+          git push --verbose
