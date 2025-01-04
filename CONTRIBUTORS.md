@@ -20,7 +20,7 @@
 
 ### Questions:
 
-If you have any questions or want to get involved, please reach out to [Rovetown](https://github.com/Rovetown) at [name@email.com](mailto:name@email.com) or join our [Discord](https://discord.gg/KkdkGus3KT)
+If you have any questions or want to get involved, please reach out to [Rovetown](https://github.com/Rovetown) at [name@email.com](mailto:name@email.com) or join our [Discord](https://discord.gg/KkdkGus3KT).
 
 ## License:
 

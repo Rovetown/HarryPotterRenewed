@@ -60,8 +60,7 @@ representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at
-[INSERT CONTACT METHOD](TODO).
-> **TODO:** Add a contact method
+[Discord](https://discord.gg/KkdkGus3KT).
 
 All complaints will be reviewed and investigated promptly and fairly.
 

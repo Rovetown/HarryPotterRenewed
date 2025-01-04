@@ -19,7 +19,8 @@ For further guidance on how to get started, please take a look at the following 
 
 * [What this project is about](README.md)
 * [Pull Request Guidelines](.github/PULL_REQUEST_TEMPLATE.md)
-* [Issues Guidelines](ISSUE_TEMPLATE.md)
+* [Issues Guidelines](.github/ISSUE_TEMPLATE/bug_report.md)
+* [Feature Request Guidelines](.github/ISSUE_TEMPLATE/feature_request.md)
 
 ## Coding conventions
 

@@ -31,7 +31,7 @@
 
 ## A Fabric mod that brings the magic of Harry Potter into Minecraft with spells, mobs, blocks, and more!
 
----
+
 
 #### This project aims to immerse players in the wizarding world by adding iconic Harry Potter-inspired features to Minecraft.
 
@@ -42,7 +42,7 @@
 
 # Getting Started
 
----
+
 
 ## Setting Up Your Java Development Environment
 
@@ -95,7 +95,7 @@ IntelliJ IDEA is a powerful Java IDE that will help you develop this mod efficie
 
 ## Installing the Repository and run the Mod
 
----
+
 
 #### 1. Clone the Repository
 > Open your terminal in the directory where you want to have your Modding-Folder and execute:
@@ -141,7 +141,7 @@ You can download the correct version from many different sources, but we recomme
 
 ## Contributing
 
----
+
 
 If you want to contribute to this project, follow one of the steps below:
 
@@ -161,13 +161,13 @@ Check also the [list of contributors](CONTRIBUTORS.md) who helped on this projec
 
 ## Changelog :memo:
 
----
+
 
 Find the latest Changelog [here](CHANGELOG.md).
 
 ## Acknowledgments :thumbsup:
 
----
+
 
 > **[?]** Reference someone's code you used, insert an external link or thank people, i.e.:
 
@@ -179,7 +179,7 @@ Find the latest Changelog [here](CHANGELOG.md).
 
 ## To-Do :man:
 
----
+
 
 - [ ] Create Example Entities (Flyings, Humans, Creatures)
 - [ ] Implement Example Textures (Items, Blocks, Mobs)
@@ -193,7 +193,7 @@ Find the latest Changelog [here](CHANGELOG.md).
 
 ## License
 
----
+
 
 All rights reserved. &copy; 2025 [Rovetown](https://github.com/Rovetown).
 
