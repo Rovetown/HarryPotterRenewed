@@ -99,7 +99,6 @@ tasks.withType(JavaCompile).configureEach {
 	it.options.release = 21
 }
 
-
 /**
  tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
 	kotlinOptions {
@@ -107,7 +106,6 @@ tasks.withType(JavaCompile).configureEach {
 	}
 }
 **/
-
 
 java {
 	// Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
