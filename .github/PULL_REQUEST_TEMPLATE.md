@@ -38,7 +38,7 @@ Thank you for helping keep the project streamlined and efficient!
 ## General steps for completing this pull request
 ___
 
-Please review the [guidelines for contributing](CONTRIBUTING.md) to this repository.
+Please review the [guidelines for contributing](../CONTRIBUTING.md) to this repository.
 
 ### Checklist
 
@@ -51,7 +51,7 @@ Ensure that your `pull request` has followed all the steps below:
 - [ ] Removed install dependencies before the end of the build process, if applicable
 
 The following step is **not required**, but it is recommended for those who want credit for their Portfolio:
-- [ ] Added myself to the [CONTRIBUTORS](CONTRIBUTORS.md) file (if not already there) with the following information:
+- [ ] Added myself to the [CONTRIBUTORS](../CONTRIBUTORS.md) file (if not already there) with the following information:
   - [ ] Name
   - [ ] GitHub profile
   - [ ] Role/Contribution (if possible link your merged PR)

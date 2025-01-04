@@ -105,7 +105,7 @@ IntelliJ IDEA is a powerful Java IDE that will help you develop this mod efficie
 
 #### 2. Open the Project in IntelliJ IDEA
 > If not done so already, download and install [IntelliJ IDEA](https://www.jetbrains.com/idea/download/).
-> * **HIGHLY RECOMMENDED:** Install the [Minecraft Development Plugin](https://plugins.jetbrains.com/plugin/8327-minecraft-development) for IntelliJ IDEA.
+> * <ins>**HIGHLY RECOMMENDED:**</ins> Install the [Minecraft Development Plugin](https://plugins.jetbrains.com/plugin/8327-minecraft-development) for IntelliJ IDEA.
 >
 > Once you have IntelliJ installed, launch it.
 >

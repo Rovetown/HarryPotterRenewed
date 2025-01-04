@@ -7,23 +7,19 @@ Special thanks to all contributors who help make this project better! We welcome
 
 If you need further guidance, you can find our team on the following:
 
-* Twitter maybe
+* Twitter maybe (cause who does not have a twitter as a developer. sadly.)
 * Discord
-* Mailing list (PLEASE DON'T USE THIS, **maybe** only my special email)
 * Some Project Management tool like Trello, Jira, etc. which is free
 
 Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
 ## Getting started
 
-> Here you should address guidelines about future functionalities, milestone labels, bugs and unlisted features, issued assignments, etc. Since now we have an `Issue` and a `Pull Request` template, you can reference them directly:
-
-For further guidance about getting started, please refer to the related links:
+For further guidance on how to get started, please take a look at the following links:
 
 * [What this project is about](README.md)
-* [Pull Request Guidelines](PULL_REQUEST_TEMPLATE.md)
+* [Pull Request Guidelines](.github/PULL_REQUEST_TEMPLATE.md)
 * [Issues Guidelines](ISSUE_TEMPLATE.md)
-> **TODO:** Create a `PULL_REQUEST_TEMPLATE.md` and `ISSUE_TEMPLATE.md` files
 
 ## Coding conventions
 
