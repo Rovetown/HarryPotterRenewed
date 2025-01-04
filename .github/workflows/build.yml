@@ -6,6 +6,9 @@
 # SHIPPED BY DEFAULT WITH FABRIC EXAMPLES, NEEDS COMPLETE MODIFICATION FOR ACTUAL USE
 
 name: build
+permissions:
+  contents: read
+  pull-requests: write
 on: workflow_dispatch
 
 jobs:
