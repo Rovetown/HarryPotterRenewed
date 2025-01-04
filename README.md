@@ -1,4 +1,4 @@
-> TODO: Add Shields for:
+<!-- > TODO: Add Shields for:
 > https://shields.io/badges/modrinth-version,
 > https://shields.io/badges/curse-forge-game-versions
 > https://shields.io/badges/modrinth-game-versions
@@ -11,7 +11,7 @@
 > https://shields.io/badges/modrinth-followers
 > https://shields.io/badges/git-hub-issues-or-pull-requests
 > https://gist.github.com/gnaaruag/674a3d470c09825cb72ee9d8e128125b
-
+-->
 ![Project Banner](https://repository-images.githubusercontent.com/911762534/34d50d0d-f5e6-4392-9931-92ea6e28e2be)
 
 <!--![GitHub forks](https://img.shields.io/github/forks/Rovetown/HarryPotterRenewed?style=for-the-badge)-->
@@ -85,7 +85,7 @@ IntelliJ IDEA is a powerful Java IDE that will help you develop this mod efficie
   Follow the installation instructions specific to your operating system.
 
 
-### 4. Set Up JDK 17/21 in IntelliJ**:
+### 4. Set Up JDK 17/21 in IntelliJ:
 1. Launch IntelliJ IDEA.
 2. Open the project you **[cloned from this repository](#1-clone-the-repository)**
 3. Go to `File > Project Structure > SDKs`. 
@@ -126,7 +126,10 @@ IntelliJ IDEA is a powerful Java IDE that will help you develop this mod efficie
 
 * If you get an error stating your JDK is not compatible or missing, you may need to install (a different version of) the JDK.
 <br>
-You can download the correct version from many different sources, but we recommend using [AdoptOpenJDK - LTS 21](https://objects.githubusercontent.com/github-production-release-asset-2e65be/602574963/736afa72-14dc-415e-9080-e20847b55d1c?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250104T094037Z&X-Amz-Expires=300&X-Amz-Signature=ef4f274a9072a504c98a2b884a3e9a79ab21be2687777f93d3304b4f4c596984&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DOpenJDK21U-jdk_x64_windows_hotspot_21.0.5_11.msi&response-content-type=application%2Foctet-stream).
+You can download the correct version from many different sources, but we recommend using
+
+[AdoptOpenJDK - LTS 21](https://objects.githubusercontent.com/github-production-release-asset-2e65be/602574963/736afa72-14dc-415e-9080-e20847b55d1c?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250104T141712Z&X-Amz-Expires=300&X-Amz-Signature=e3b1b8190447eeedc88d14506e66fbd2fdab652d88871c37ab08f4958f9660c1&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DOpenJDK21U-jdk_x64_windows_hotspot_21.0.5_11.msi&response-content-type=application%2Foctet-stream)
+
 * If gradle is not generating the minecraft sources, try running the `genSources` gradle task:
     ```sh
     $ ./gradlew genSources
