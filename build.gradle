@@ -75,15 +75,9 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-	//mappings loom.layered() {
-	//	officialMojangMappings()
-	//	parchment("org.parchmentmc.data:parchment-1.21:2024.11.10@zip")
-	//}
-
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	//modImplementation "net.fabricmc:fabric-language-kotlin:${project.fabric_kotlin_version}"
-	//modImplementation "software.bernie.geckolib:geckolib-fabric-${minecraft_version}:${geckolib_version}"
 	modApi "com.terraformersmc:modmenu:11.0.3"
 }
 
