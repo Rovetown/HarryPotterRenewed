@@ -25,7 +25,7 @@ jobs:
         env:
           CHANGELOG_GITHUB_TOKEN: ${{ secrets.CHANGELOG_TOKEN }}
         run: |
-          github_changelog_generator --user Rovetown --project HarryPotterRenewed --token ${{ secrets.CHANGELOG_TOKEN }}
+          github_changelog_generator --user Rovetown --project HarryPotterRenewed
 
       - name: Commit and Push Changelog
         run: |
