@@ -22,10 +22,8 @@ jobs:
           gem install github_changelog_generator
 
       - name: Generate Changelog
-        env:
-            CHANGELOG_GITHUB_TOKEN: ${{ secrets.CHANGELOG_GITHUB_TOKEN }}
         run: |
-          github_changelog_generator --user Rovetown --project HarryPotterRenewed -t $CHANGELOG_GITHUB_TOKEN
+          github_changelog_generator --user Rovetown --project HarryPotterRenewed
 
       - name: Commit and Push Changelog
         run: |
