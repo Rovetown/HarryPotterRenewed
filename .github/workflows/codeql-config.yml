@@ -1,0 +1,30 @@
+name: CodeQL
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  analyze:
+    name: Analyze CodeQL
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          # Analyzes Java code directly from the codebase without a build
+          - language: java-kotlin
+            build-mode: none # no build; scans Java code only
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: ${{ matrix.language }}
+
+      # Skip build since 'build-mode' is set to 'none'
+      # The analysis will use the Java code directly without building.
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
