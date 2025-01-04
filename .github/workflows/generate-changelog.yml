@@ -29,10 +29,8 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git status
           git add CHANGELOG.md
           git commit -m "Updated CHANGELOG.md"
-          git status
           git fetch origin
-          git rebase --strategy-option=theirs origin/main --verbose
-          git push --verbose
+          git rebase --strategy-option=theirs origin/main
+          git push
