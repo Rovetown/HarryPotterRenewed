@@ -20,7 +20,7 @@
 
 <div align="right">
 
-![GitHub](https://img.shields.io/github/license/Rovetown/HarryPotterRenewed?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/LICENSE-ALL_RIGHTS_RESERVED-blue?style=for-the-badge&link=https%3A%2F%2Fgithub.com%2FRovetown%2FHarryPotterRenewed%2Fblob%2Fmain%2FLICENSE)
 ![Discord](https://img.shields.io/discord/1324826601669787811?style=for-the-badge&logo=discord&logoColor=white&logoSize=auto&color=%235865F2&link=https%3A%2F%2Fdiscord.gg%2FKkdkGus3KT)
 ![GitHub top language](https://img.shields.io/github/languages/top/Rovetown/HarryPotterRenewed?style=for-the-badge&color=%23FF9900)
 
@@ -169,10 +169,10 @@ Find the latest Changelog [here](CHANGELOG.md).
 > **[?]** Reference someone's code you used, insert an external link or thank people, i.e.:
 
 * [Shields.io](http://shields.io/). Definitely a must-have.
-* [Travis-CI](travis-ci.org). Another must-have. _Test and Deploy with Confidence_.
+* [Travis-CI](https://www.travis-ci.org/). Another must-have. _Test and Deploy with Confidence_.
 * [Github Actions](https://www.github.com/features/actions). _Automate your workflow from idea to production_.
-* [GeckoLib](#). _IF WE WERE TO USE IT: A modding library for Minecraft Java and Bedrock Edition_.
-* [And so on...](#). And so on... | _And so on..._. | *snort* | **snort** | ***snort***
+* [GeckoLib](https://shields.io/). _IF WE WERE TO USE IT: A modding library for Minecraft Java and Bedrock Edition_.
+* [And so on...](https://shields.io/). And so on... | _And so on..._. | *snort* | **snort** | ***snort***
 
 ## To-Do :man:
 
