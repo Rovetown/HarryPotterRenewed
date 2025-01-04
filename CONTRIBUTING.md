@@ -1,9 +1,8 @@
 ## Before getting started
 
 Special thanks to all contributors who help make this project better! We welcome new contributors to join us and encourage collaborative development.
-# How to contribute
 
-> Expose your project guidelines about how to contribute to it. Offer resources that people could use to discuss changes they wish to make, ask questions and talk about how they could help (and what needs their help).
+# How to contribute
 
 If you need further guidance, you can find our team on the following:
 
@@ -24,10 +23,12 @@ For further guidance on how to get started, please take a look at the following 
 
 ## Coding conventions
 
-> Code should be optimized for readability. Attach some custom style guide or reference some. i.e.:
+In order to sanitize coding standards, please keep your coding style consistent.
+Try to match the style of the existing codebase as much as possible.
 
-In order to sanitize coding standards, please follow [this style guide](https://github.com/airbnb/javascript).
-> **TODO:** Add a style guide
+For reference, please refer to the following: [**Google's Official** Java Guide](https://google.github.io/styleguide/javaguide.html)
+
+<!--TODO: For future reference, maybe write own code guidelines based on codebase/provide some preset file if possible-->
 
 ## Code of Conduct
 
