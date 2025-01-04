@@ -1,4 +1,4 @@
-> TODO: Add Shields for:
+<!-- > TODO: Add Shields for:
 > https://shields.io/badges/modrinth-version,
 > https://shields.io/badges/curse-forge-game-versions
 > https://shields.io/badges/modrinth-game-versions
@@ -11,7 +11,7 @@
 > https://shields.io/badges/modrinth-followers
 > https://shields.io/badges/git-hub-issues-or-pull-requests
 > https://gist.github.com/gnaaruag/674a3d470c09825cb72ee9d8e128125b
-
+-->
 ![Project Banner](https://repository-images.githubusercontent.com/911762534/34d50d0d-f5e6-4392-9931-92ea6e28e2be)
 
 <!--![GitHub forks](https://img.shields.io/github/forks/Rovetown/HarryPotterRenewed?style=for-the-badge)-->
@@ -85,7 +85,7 @@ IntelliJ IDEA is a powerful Java IDE that will help you develop this mod efficie
   Follow the installation instructions specific to your operating system.
 
 
-### 4. Set Up JDK 17/21 in IntelliJ**:
+### 4. Set Up JDK 17/21 in IntelliJ:
 1. Launch IntelliJ IDEA.
 2. Open the project you **[cloned from this repository](#1-clone-the-repository)**
 3. Go to `File > Project Structure > SDKs`. 
