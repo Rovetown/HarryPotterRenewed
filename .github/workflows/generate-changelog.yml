@@ -25,7 +25,7 @@ jobs:
         env:
           CHANGELOG_GITHUB_TOKEN: ${{ secrets.CHANGELOG_TOKEN }}
         run: |
-          github_changelog_generator Rovetown/HarryPotterRenewed --token $CHANGELOG_GITHUB_TOKEN
+          github_changelog_generator Rovetown/HarryPotterRenewed --token ${{ secrets.CHANGELOG_TOKEN }}
 
       - name: Commit and Push Changelog
         run: |
