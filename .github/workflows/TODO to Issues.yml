@@ -1,7 +1,9 @@
 name: "Run TODO to Issue"
 
-on:
-  workflow_dispatch:
+permissions:
+  issues: write
+
+on: [ "push" ]
 
 jobs:
   build:
@@ -11,5 +13,3 @@ jobs:
 
       - name: "TODO to Issue"
         uses: "alstr/todo-to-issue-action@v5"
-        with:
-          LANGUAGES: ".github/workflows/lang/LANGUAGES.json"
