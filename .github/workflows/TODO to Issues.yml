@@ -1,4 +1,7 @@
 name: TOTO to Issue
+
+permissions: {}
+
 on:
   workflow_dispatch:
 

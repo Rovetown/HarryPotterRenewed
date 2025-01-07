@@ -1,5 +1,7 @@
 name: Fabric CI
 
+permissions: {}
+
 on:
   workflow_dispatch:
   #push:

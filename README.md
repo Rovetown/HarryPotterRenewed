@@ -94,7 +94,7 @@ IntelliJ IDEA is a powerful Java IDE that will help you develop this mod efficie
 ### 4. Set Up JDK 17/21 in IntelliJ:
 
 1. Launch IntelliJ IDEA.
-2. Open the project you **[cloned from this repository](#1-clone-the-repository)**
+2. Open the project you **[cloned from this repository](#1-clone-the-repository)**$ git clone https://github.com/Rovetown/HarryPotterRenewed.git
 3. Go to `File > Project Structure > SDKs`.
 4. Click the `+` button, select `Add JDK`, and choose the path where JDK 17 and/or JDK 21 is installed. If installed correctly, IntelliJ will recognize it.
 5. Ensure JDK 17/21 is set as the default SDK for the project.
