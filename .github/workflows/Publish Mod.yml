@@ -1,7 +1,5 @@
 name: Publish Mod.yml
 
-permissions: {}
-
 on:
   workflow_dispatch:
 

@@ -2,7 +2,10 @@ name: Issue assignment
 
 on:
   issues:
-    types: [opened]
+    types: [opened, edited, milestoned]
+  issue_comment:
+    types: [created, edited]
+  workflow_dispatch:
 
 jobs:
   auto-assign:

@@ -1,7 +1,5 @@
 name: Compiling
 
-permissions: {}
-
 on:
   workflow_dispatch:
   #push:

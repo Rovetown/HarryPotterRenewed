@@ -29,6 +29,4 @@ public class HarryPotterRenewed implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.warn("HARRY POTTER RENEWED INITIALIZED!");
 	}
-
-	// TODO: New Test for Auto Assigning Users if it would work...
 }
