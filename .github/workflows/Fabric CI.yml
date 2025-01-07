@@ -1,0 +1,39 @@
+name: Fabric CI
+
+on:
+  workflow_dispatch:
+  #push:
+  #  branches: [ main ]
+  #pull_request:
+  #  branches: [ main ]
+
+jobs:
+  buildAndRunForMultipleVersions:
+    name: Run tests for ${{ matrix.minecraftVersion }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        minecraftVersion:
+          - 1.21
+          - 1.21.1
+          - 1.21.2
+          - 1.21.3
+          - latest
+
+  runTests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          lfs: true
+      - uses: Geometrically/fabric-test-runner@v1
+        id: testRunner
+        with:
+          minecraftVersion: ${{ matrix.minecraftVersion }}
+          runBuildTest: true
+      #- uses: actions/upload-artifact@v1
+      #  with:
+      #    name: Builds
+      #    path: build/libs

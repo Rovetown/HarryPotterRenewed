@@ -1,0 +1,29 @@
+name: Publish Mod.yml
+
+on:
+  workflow_dispatch:
+
+jobs:
+  publishing:
+    name: Publish Mod to CurseForge and Modrinth
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set Mod-Version
+        id: vars
+        run: echo "::set-output name=version::1.0.0"
+
+      - uses: tristankechlo/publish-mc-mod@v1.0.0 # replace with the actual version needed
+        with:
+          mc-version: "1.21" # required
+          mod-version: ${{ steps.vars.outputs.version }} # required
+          version-range: "[1.21,1.21.4)" # required
+          curseforge-id: 00000000 # required
+          modrinth-id: "abcdefgh" # required
+          featured: true # optional (default: true), if the files should be marked as featured on modrinth
+          neoforge: false # optional (default: true), if the neoforge files should be published
+          fabric: true # optional (default: true), if the fabric files should be published
+          forge: false # optional (default: true), if the forge files should be published
+          changelog: "Updated to Version ${{ steps.vars.outputs.version }}" # optional (default: ""), the changelog displayed next to the files on curseforge and modrinth
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }} # required
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }} # required

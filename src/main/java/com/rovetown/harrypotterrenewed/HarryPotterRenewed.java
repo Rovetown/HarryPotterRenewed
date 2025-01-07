@@ -29,4 +29,6 @@ public class HarryPotterRenewed implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.warn("HARRY POTTER RENEWED INITIALIZED!");
 	}
+
+	//TODO: Add more initialization code here (this TODO is just a placeholder for testing a GitHub Action)
 }

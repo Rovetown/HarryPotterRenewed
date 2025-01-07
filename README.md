@@ -20,6 +20,8 @@
 
 <div align="right">
 
+[![Super-Linter](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/Linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
 ![Static Badge](https://img.shields.io/badge/LICENSE-ALL_RIGHTS_RESERVED-blue?style=for-the-badge&link=https%3A%2F%2Fgithub.com%2FRovetown%2FHarryPotterRenewed%2Fblob%2Fmain%2FLICENSE)
 ![Discord](https://img.shields.io/discord/1324826601669787811?style=for-the-badge&logo=discord&logoColor=white&logoSize=auto&color=%235865F2&link=https%3A%2F%2Fdiscord.gg%2FKkdkGus3KT)
 ![GitHub top language](https://img.shields.io/github/languages/top/Rovetown/HarryPotterRenewed?style=for-the-badge&color=%23FF9900)
