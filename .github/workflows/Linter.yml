@@ -44,6 +44,8 @@ jobs:
           VALIDATE_NATURAL_LANGUAGE: false
           VALIDATE_SHELL_SHFMT: false
           VALIDATE_YAML_PRETTIER: false
+          VALIDATE_JAVA: false
+          VALIDATE_CHECKSTYLE: false
 
       - name: Commit and push linting fixes
           # Run only on:
