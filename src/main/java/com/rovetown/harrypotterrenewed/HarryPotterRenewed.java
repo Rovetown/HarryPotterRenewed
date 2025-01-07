@@ -30,5 +30,5 @@ public class HarryPotterRenewed implements ModInitializer {
 		LOGGER.warn("HARRY POTTER RENEWED INITIALIZED!");
 	}
 
-	// TODO: New Test for Auto Assigning Users
+	// TODO: New Test for Auto Assigning Users if it would work...
 }
