@@ -23,9 +23,6 @@ jobs:
           - 1.21.3
           - latest
 
-  runTests:
-    runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
         with:
