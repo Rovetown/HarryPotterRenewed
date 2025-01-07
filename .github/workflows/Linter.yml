@@ -32,8 +32,6 @@ jobs:
         env:
           # To report GitHub Actions status checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VALIDATE_JAVA: true
-          VALIDATE_GOOGLE_JAVA_FORMAT: true
           LINTER_RULES_PATH: config/lint
 
       - name: Commit and push linting fixes
