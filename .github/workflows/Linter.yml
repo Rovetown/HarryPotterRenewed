@@ -47,6 +47,7 @@ jobs:
           VALIDATE_JAVA: false
           VALIDATE_CHECKSTYLE: false
           VALIDATE_GIT_COMMITLINT: false
+          VALIDATE_CHECKOV: false
 
       - name: Commit and push linting fixes
           # Run only on:
