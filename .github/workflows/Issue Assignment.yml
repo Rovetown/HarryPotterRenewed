@@ -1,7 +1,5 @@
 name: Issue assignment
 
-permissions: {}
-
 on:
   issues:
     types: [opened]
@@ -15,6 +13,5 @@ jobs:
       - name: 'Auto-assign issue'
         uses: pozil/auto-assign-issue@v2.1.2
         with:
-          assignees: rovetown
-          numOfAssignee: 1
-          allowSelfAssign: true
+          assignees: Rovetown,rovetown
+          allowSelfAssign: false
